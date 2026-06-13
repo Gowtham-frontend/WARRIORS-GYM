@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warriors Gym — Body Building & Fitness | Kokkarayanpettai</title>
+  <meta name="description" content="Warriors Gym — Premier body building and fitness center in Kokkarayanpettai. Fully equipped with professional trainers. Open daily." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-icon">⚔</span>
+        <span class="nav__logo-text">Warriors <em>Gym</em></span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#equipment">Equipment</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact" class="nav__cta">Join Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg-slash"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Est. March 2022 · Kokkarayanpettai</p>
+      <h1 class="hero__title">
+        <span class="hero__title--line1">WARRIORS</span>
+        <span class="hero__title--line2">GYM</span>
+      </h1>
+      <p class="hero__sub">Body Building <span class="hero__divider">|</span> Strength Training <span class="hero__divider">|</span> Fitness</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Start Your Journey</a>
+        <a href="#plans" class="btn btn--ghost">View Plans</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat">
+        <span class="hero__stat-num" data-target="100">0</span><span class="hero__stat-unit">+</span>
+        <p class="hero__stat-label">Equipment Pieces</p>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num" data-target="500">0</span><span class="hero__stat-unit">+</span>
+        <p class="hero__stat-label">Members Trained</p>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-num" data-target="3">0</span><span class="hero__stat-unit">+</span>
+        <p class="hero__stat-label">Years of Excellence</p>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text">
+          <p class="section-eyebrow">Who We Are</p>
+          <h2 class="section-title">Train Like a <span class="accent">Warrior</span></h2>
+          <p class="about__desc">
+            Warriors Gym was built with one mission — to give the people of Kokkarayanpettai access to a world-class fitness facility without compromise. From day one, we've stocked the finest equipment, hired professional trainers, and kept our doors open at the best hours, all at a cost that won't break your budget.
+          </p>
+          <p class="about__desc">
+            Whether you're here to build muscle, drop weight, or just feel stronger every day — we have everything you need under one roof.
+          </p>
+          <div class="about__pillars">
+            <div class="about__pillar">
+              <span class="about__pillar-icon">🏋️</span>
+              <div>
+                <strong>Pro Trainers</strong>
+                <p>Certified coaches who push you past limits</p>
+              </div>
+            </div>
+            <div class="about__pillar">
+              <span class="about__pillar-icon">⚡</span>
+              <div>
+                <strong>Top Equipment</strong>
+                <p>Fully equipped, well-maintained, always clean</p>
+              </div>
+            </div>
+            <div class="about__pillar">
+              <span class="about__pillar-icon">💰</span>
+              <div>
+                <strong>Low Cost</strong>
+                <p>Great hours and great value, every day</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__visual">
+          <div class="about__img-stack">
+            <img src="2.jpg" alt="Cardio equipment row with upright bikes and treadmills in a bright gym space, conveying energetic workout readiness" class="about__img about__img--back" />
+            <img src="3.jpg" alt="Free weights area with dumbbells, barbells and benches in a clean gym floor, showing strength-focused training readiness" class="about__img about__img--front" />
+            <div class="about__badge">
+              <span class="about__badge-text">FULLY EQUIPPED GYM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPMENT -->
+  <section class="equipment" id="equipment">
+    <div class="container">
+      <p class="section-eyebrow center">What We Offer</p>
+      <h2 class="section-title center">Built to <span class="accent">Perform</span></h2>
+      <div class="equipment__grid">
+        <div class="equipment__card">
+          <div class="equipment__card-icon">🚴</div>
+          <h3>Cardio Zone</h3>
+          <p>Precor bikes, treadmills, ellipticals and rowing machines for peak cardiovascular conditioning</p>
+        </div>
+        <div class="equipment__card">
+          <div class="equipment__card-icon">🥊</div>
+          <h3>Boxing Area</h3>
+          <p>Heavy bags and speed equipment to develop explosive power and coordination</p>
+        </div>
+        <div class="equipment__card">
+          <div class="equipment__card-icon">🏋️</div>
+          <h3>Free Weights</h3>
+          <p>Complete dumbbell rack, barbells, and benches for functional strength training</p>
+        </div>
+        <div class="equipment__card">
+          <div class="equipment__card-icon">⚙️</div>
+          <h3>Cable & Machines</h3>
+          <p>Multi-station cable systems and isolating machines for every muscle group</p>
+        </div>
+        <div class="equipment__card">
+          <div class="equipment__card-icon">🪞</div>
+          <h3>Mirror Walls</h3>
+          <p>Full-length mirror walls for form-checking and visual motivation throughout your workout</p>
+        </div>
+        <div class="equipment__card">
+          <div class="equipment__card-icon">✨</div>
+          <h3>Clean Facility</h3>
+          <p>Spotless floors, sanitized equipment, and a welcoming atmosphere every single day</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANS -->
+  <section class="plans" id="plans">
+    <div class="container">
+      <p class="section-eyebrow center">Membership</p>
+      <h2 class="section-title center">Choose Your <span class="accent">Plan</span></h2>
+      <div class="plans__grid">
+        <div class="plans__card">
+          <div class="plans__card-header">
+            <p class="plans__type">Monthly</p>
+            <div class="plans__price">
+              <span class="plans__currency">₹</span>
+              <span class="plans__amount">799</span>
+              <span class="plans__per">/mo</span>
+            </div>
+          </div>
+          <ul class="plans__features">
+            <li>✔ Full gym access</li>
+            <li>✔ All equipment</li>
+            <li>✔ Basic trainer guidance</li>
+            <li>✔ Locker facility</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Get Started</a>
+        </div>
+        <div class="plans__card plans__card--featured">
+          <div class="plans__badge">BEST VALUE</div>
+          <div class="plans__card-header">
+            <p class="plans__type">Quarterly</p>
+            <div class="plans__price">
+              <span class="plans__currency">₹</span>
+              <span class="plans__amount">1,999</span>
+              <span class="plans__per">/3 mo</span>
+            </div>
+          </div>
+          <ul class="plans__features">
+            <li>✔ Full gym access</li>
+            <li>✔ All equipment</li>
+            <li>✔ Personal trainer sessions</li>
+            <li>✔ Diet consultation</li>
+            <li>✔ Locker facility</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Get Started</a>
+        </div>
+        <div class="plans__card">
+          <div class="plans__card-header">
+            <p class="plans__type">Annual</p>
+            <div class="plans__price">
+              <span class="plans__currency">₹</span>
+              <span class="plans__amount">5,999</span>
+              <span class="plans__per">/yr</span>
+            </div>
+          </div>
+          <ul class="plans__features">
+            <li>✔ Full gym access</li>
+            <li>✔ All equipment</li>
+            <li>✔ Unlimited trainer access</li>
+            <li>✔ Full diet plan</li>
+            <li>✔ Locker facility</li>
+            <li>✔ Priority scheduling</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Get Started</a>
+        </div>
+      </div>
+      <p class="plans__note">* Prices are indicative. Contact us for current rates and offers.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <p class="section-eyebrow center">Inside Warriors</p>
+      <h2 class="section-title center">The <span class="accent">Arena</span></h2>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--wide">
+        <img src="IMAGES/1.jpg" alt="Wide weights floor with benches and free weights arranged in an open training area, suggesting an organized strength workout environment" />
+        <div class="gallery__overlay"><span>Weights Floor</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="IMAGES/2.jpg" alt="Cardio zone with treadmills and ellipticals lined up against mirrors in a bright fitness room, inviting active exercise" />
+        <div class="gallery__overlay"><span>Cardio Zone</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="IMAGES/3.jpg" alt="Gym exterior showing the Warriors Gym entrance and signage on a bright street, presenting a welcoming training destination" />
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="section-eyebrow center">Member Voices</p>
+      <h2 class="section-title center">What They <span class="accent">Say</span></h2>
+      <div class="reviews__grid">
+        <div class="reviews__card">
+          <div class="reviews__stars">★★★★★</div>
+          <p class="reviews__text">"Nice place. Good location. Exactly what Kokkarayanpettai needed."</p>
+          <p class="reviews__author">— Google Reviewer</p>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__stars">★★★★★</div>
+          <p class="reviews__text">"Fully equipped with fine equipments and a fine trainer. Couldn't ask for more."</p>
+          <p class="reviews__author">— Ranjithkumar Murugesan</p>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__stars">★★★★★</div>
+          <p class="reviews__text">"Lots of new equipment and well cleaned gym. The owner takes real pride in this place."</p>
+          <p class="reviews__author">— Chandru Palanivel</p>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__stars">★★★★★</div>
+          <p class="reviews__text">"Great hours, low cost, lots of equipment. This is exactly the gym experience we deserved locally."</p>
+          <p class="reviews__author">— Seeni Vasan</p>
+        </div>
+        <div class="reviews__card">
+          <div class="reviews__stars">★★★★★</div>
+          <p class="reviews__text">"Good facilities. Clean and professional environment that keeps you motivated."</p>
+          <p class="reviews__author">— Prakashtkp</p>
+        </div>
+      </div>
+      <div class="reviews__cta">
+        <a href="https://maps.app.goo.gl/kokkarayanpettai" target="_blank" class="btn btn--ghost">Leave a Review on Google</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title">Join the <span class="accent">Warriors</span></h2>
+          <p class="contact__desc">Ready to start your transformation? Walk in or reach out — we're here to help you begin.</p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <span class="contact__detail-icon">📍</span>
+              <div>
+                <strong>Address</strong>
+                <p>JK Complex, Cauvery River Bridge Road,<br />Kokkarayanpettai, Tamil Nadu – 638007</p>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__detail-icon">📞</span>
+              <div>
+                <strong>Phone</strong>
+                <p><a href="tel:+919842707896">+91 98427 07896</a></p>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__detail-icon">🕐</span>
+              <div>
+                <strong>Hours</strong>
+                <p>Mon – Sat: 5:00 AM – 9:00 PM<br />Sunday: 6:00 AM – 12:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form-wrap">
+          <form class="contact__form" id="contactForm" novalidate>
+            <h3 class="contact__form-title">Book a Free Trial</h3>
+            <div class="form__group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+            <div class="form__group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+            <div class="form__group">
+              <label for="goal">Your Goal</label>
+              <select id="goal" name="goal">
+                <option value="">Select your goal</option>
+                <option>Body Building</option>
+                <option>Weight Loss</option>
+                <option>Strength Training</option>
+                <option>General Fitness</option>
+                <option>Boxing / Combat</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="message">Message (optional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="Any questions or preferences?"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Book Free Trial →</button>
+          </form>
+        </div>
+      </div>
+      <div class="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.3!2d77.6900!3d11.3400!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zV2Fycmlvcm1zIEd5bQ!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Warriors Gym Location"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="nav__logo-icon">⚔</span>
+          <span class="footer__brand-name">Warriors Gym</span>
+        </div>
+        <p class="footer__tagline">Body Building & Fitness · Kokkarayanpettai</p>
+        <div class="footer__links">
+          <a href="#about">About</a>
+          <a href="#equipment">Equipment</a>
+          <a href="#plans">Plans</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="footer__copy">© 2024 Warriors Gym. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div class="modal__box">
+      <div class="modal__icon">⚔️</div>
+      <h3 class="modal__title">Welcome, Warrior!</h3>
+      <p class="modal__text">Your free trial has been booked. We'll call you shortly to confirm. See you at the gym!</p>
+      <button class="btn btn--primary" id="modalClose">Got it!</button>
+    </div>
+  </div>
+  <div class="modal__overlay" id="modalOverlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
